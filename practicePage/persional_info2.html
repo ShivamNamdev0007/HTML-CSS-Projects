@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Details Form</title>
+</head>
+<body>
+  <h2>Personal Details</h2>
+  <form>
+    <div>
+        <label for="a">Salutation</label>
+        <select id="aa" name="a" required>
+          <option value="">--None--</option>
+          <option value="Mr.">Mr.</option>
+          <option value="Mrs">Mrs.</option>
+        </select>
+      </div>
+      <br>
+    
+    <div>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" placeholder="abcd" required>
+    </div>
+    <br>
+    <div>
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" placeholder="abcd" required>
+    </div>
+    <br>
+    <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+    </div>
+    <br>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+    </div>
+    <br>
+    <div>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+    </div>
+    <br>
+    <div>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" cols="50"></textarea>
+    </div>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
